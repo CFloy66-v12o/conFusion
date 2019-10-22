@@ -2,6 +2,15 @@ html {
     font-size: 16px;
 }
 
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512da8;
+}
+
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
@@ -36,3 +45,4 @@ html {
 .copyright {
     padding: 35px 0px 15px 0px;
 }
+

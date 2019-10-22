@@ -10,9 +10,23 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-dark navbar-expand-sm">
-
-            </nav>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                 <a class="navbar-brand mr-auto" href="index.html">Ristorante Con Fusion</a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="aboutus.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                </div>
+                
+            </div>
+        </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -29,6 +43,10 @@
 
     <div>
         <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"></a>Home</li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>
             <!========  i know i could've left it with just container-fluid but, eh  =======>
             <div class="col-sm-12">
                <h3>About Us</h3>
